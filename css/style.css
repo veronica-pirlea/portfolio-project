@@ -30,6 +30,12 @@ h3 {
   text-shadow: 5px 5px 10px rgba(18, 18, 18, 0.3);
 }
 
+#navigation-bar {
+  margin-right: 150px;
+  margin-top: 20px;
+  font-family: var(--primary-font);
+}
+
 .hero {
   text-align: center;
   background-color: var(--hero-color);
