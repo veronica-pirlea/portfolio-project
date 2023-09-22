@@ -98,7 +98,7 @@ h3 {
   border: 1px solid var(--hero-color);
   border-radius: 20px;
   background-color: var(--hero-color);
-  max-width: 600px;
+  max-width: 650px;
 }
 
 .paragraph-headline {
@@ -173,8 +173,24 @@ h3 {
 }
 
 @media (max-width: 576px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 25px;
+  }
   h3 {
     padding-top: 20px;
+    font-size: 20px;
+  }
+  #hero-image {
+    width: 200px;
+  }
+  #hero-button {
+    font-size: 20px;
+  }
+  .headline {
+    font-size: 14px;
   }
   #coding-image,
   #photography-image {
