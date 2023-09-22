@@ -1,13 +1,21 @@
+:root {
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Lobster", cursive;
+  --hero-color: #f9f8ed;
+  --secondary-font-color: #764f51;
+  --third-font-color: #4a2b13;
+}
+
 h1 {
   padding-top: 5px;
   font-size: 65px;
-  font-family: "Lobster", cursive;
-  color: #764f51;
+  font-family: var(--secondary-font);
+  color: var(--secondary-font-color);
   text-shadow: 5px 5px 10px rgba(18, 18, 18, 0.2);
 }
 
 h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font);
   font-weight: 500;
   color: black;
   font-size: 35px;
@@ -15,7 +23,7 @@ h2 {
 
 h3 {
   padding-top: 150px;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 30px;
   color: black;
@@ -24,13 +32,13 @@ h3 {
 
 .hero {
   text-align: center;
-  background-color: #f9f8ed;
+  background-color: var(--hero-color);
   padding-top: 110px;
 }
 
 #hero-image {
   border-radius: 80px;
-  border: px solid #f9f8ed;
+  border: 3px solid #f9f8ed;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
   margin-top: 30px;
 }
@@ -43,11 +51,156 @@ h3 {
   font-size: 25px;
   background-color: #ebcbae;
   border-color: #ebcbae;
-  color: #4a2b13;
+  color: var(--third-font-color);
   padding: 15px 30px;
-  font-family: "Lobster", cursive;
+  font-family: var(--secondary-font);
 }
 
 #hero-button:hover {
   color: #f9f8ed;
+}
+
+.headline {
+  font-family: var(--primary-font);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 30px;
+  opacity: 0.5;
+}
+
+.second-container {
+  margin-top: 60px;
+}
+
+#coding-image {
+  width: 400px;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: block;
+}
+
+#marketing-image {
+  width: 600px;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: block;
+}
+
+#photography-image {
+  width: 450px;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: block;
+}
+
+#image-background {
+  border: 1px solid var(--hero-color);
+  border-radius: 20px;
+  background-color: var(--hero-color);
+  max-width: 600px;
+}
+
+.paragraph-headline {
+  font-family: var(--secondary-font);
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: var(--secondary-font-color);
+  text-align: center;
+}
+
+.coding-paragraph {
+  font-family: var(--primary-font);
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+  margin-left: 120px;
+}
+
+.marketing-paragraph {
+  font-family: var(--primary-font);
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+  margin-right: 120px;
+}
+
+.photography-paragraph {
+  font-family: var(--primary-font);
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+  margin-left: 120px;
+}
+
+#coding-button {
+  margin-top: 50px;
+  border-radius: 10px;
+  border: 3px solid #f9f8ed;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+  border-color: #ebcbae;
+  color: var(--third-font-color);
+  font-family: var(--secondary-font);
+  text-align: center;
+  margin-left: 120px;
+}
+
+#marketing-button {
+  margin-top: 50px;
+  border-radius: 10px;
+  border: 3px solid #f9f8ed;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+  border-color: #ebcbae;
+  color: var(--third-font-color);
+  font-family: var(--secondary-font);
+  text-align: center;
+  margin-right: 120px;
+}
+
+#photography-button {
+  margin-top: 50px;
+  border-radius: 10px;
+  border: 3px solid #f9f8ed;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+  border-color: #ebcbae;
+  color: var(--third-font-color);
+  font-family: var(--secondary-font);
+  text-align: center;
+  margin-left: 120px;
+}
+
+@media (max-width: 576px) {
+  h3 {
+    padding-top: 20px;
+  }
+  #coding-image,
+  #photography-image {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .coding-paragraph,
+  .marketing-paragraph {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  #coding-button {
+    margin-left: 20px;
+  }
+  #marketing-button {
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
+  .photography-paragraph {
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  #photography-button {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
 }
