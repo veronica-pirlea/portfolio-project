@@ -112,3 +112,51 @@ h3 {
   text-align: center;
   margin: 50px;
 }
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 15px;
+  }
+  .navbar-toggler {
+    font-size: 15px;
+  }
+  .hero {
+    width: 300px;
+  }
+  h2 {
+    font-size: 17px;
+    margin-top: -40px;
+  }
+  h1 {
+    font-size: 20px;
+    margin-bottom: -90px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  #hero-image {
+    width: 200px;
+    margin-bottom: -90px;
+  }
+  #hero-button {
+    font-size: 17px;
+  }
+  .headline {
+    font-size: 14px;
+    text-align: left;
+    margin: 20px;
+  }
+  .paragraph-headline {
+    font-size: 25px;
+  }
+  .homepage-paragraph {
+    font-size: 14px;
+    width: 250px;
+    text-align: start;
+    margin: 20px;
+  }
+  #paragraph-button {
+    font-size: 14px;
+    margin: 20px;
+  }
+}
