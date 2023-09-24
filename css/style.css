@@ -75,72 +75,33 @@ h3 {
   opacity: 0.5;
 }
 
-.second-container {
-  margin-top: 60px;
-}
-
-#coding-image {
-  width: 400px;
-  border-radius: 20px;
+#paragraph-image {
   margin: 0 auto;
   display: block;
+  border-radius: 20px;
 }
 
-#marketing-image {
-  width: 600px;
-  border-radius: 20px;
-  margin: 0 auto;
-  display: block;
-}
-
-#photography-image {
-  width: 450px;
-  border-radius: 20px;
-  margin: 0 auto;
-  display: block;
-}
-
-#image-background {
-  border: 1px solid var(--hero-color);
-  border-radius: 20px;
+.bg-yellow {
   background-color: var(--hero-color);
-  max-width: 650px;
 }
 
 .paragraph-headline {
   font-family: var(--secondary-font);
-  font-size: 50px;
-  margin-bottom: 20px;
-  color: var(--secondary-font-color);
+  font-size: 45px;
+  color: var(--third-font-color);
   text-align: center;
 }
 
-.coding-paragraph {
+.homepage-paragraph {
   font-family: var(--primary-font);
-  font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.8;
+  font-size: 17px;
   text-align: justify;
-  margin-left: 120px;
+  width: 600px;
+  margin: 50px;
 }
 
-.marketing-paragraph {
-  font-family: var(--primary-font);
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: justify;
-  margin-right: 120px;
-}
-
-.photography-paragraph {
-  font-family: var(--primary-font);
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: justify;
-  margin-left: 120px;
-}
-
-#coding-button {
-  margin-top: 50px;
+#paragraph-button {
   border-radius: 10px;
   border: 3px solid #f9f8ed;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
@@ -149,80 +110,5 @@ h3 {
   color: var(--third-font-color);
   font-family: var(--secondary-font);
   text-align: center;
-  margin-left: 120px;
-}
-
-#marketing-button {
-  margin-top: 50px;
-  border-radius: 10px;
-  border: 3px solid #f9f8ed;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-  font-size: 25px;
-  border-color: #ebcbae;
-  color: var(--third-font-color);
-  font-family: var(--secondary-font);
-  text-align: center;
-  margin-right: 120px;
-}
-
-#photography-button {
-  margin-top: 50px;
-  border-radius: 10px;
-  border: 3px solid #f9f8ed;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-  font-size: 25px;
-  border-color: #ebcbae;
-  color: var(--third-font-color);
-  font-family: var(--secondary-font);
-  text-align: center;
-  margin-left: 120px;
-}
-
-@media (max-width: 576px) {
-  h1 {
-    font-size: 35px;
-  }
-  h2 {
-    font-size: 25px;
-  }
-  h3 {
-    padding-top: 20px;
-    font-size: 20px;
-  }
-  #hero-image {
-    width: 200px;
-  }
-  #hero-button {
-    font-size: 20px;
-  }
-  .headline {
-    font-size: 14px;
-  }
-  #coding-image,
-  #photography-image {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .coding-paragraph,
-  .marketing-paragraph {
-    margin-left: 20px;
-    margin-right: 10px;
-  }
-  #coding-button {
-    margin-left: 20px;
-  }
-  #marketing-button {
-    margin-left: 20px;
-    margin-right: 10px;
-    margin-bottom: 30px;
-  }
-  .photography-paragraph {
-    margin-left: 20px;
-    margin-right: 10px;
-    margin-top: 20px;
-  }
-  #photography-button {
-    margin-left: 20px;
-    margin-right: 10px;
-  }
+  margin: 50px;
 }
