@@ -199,6 +199,25 @@ h3 {
   margin-left: 30px;
 }
 
+.photography-section h1 {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.photography-section img {
+  height: 400px;
+  width: 600px;
+  border-radius: 20px;
+}
+
+.photography-section p {
+  font-size: 18px;
+  text-align: center;
+  font-family: var(--secondary-font);
+}
+
 @media (max-width: 576px) {
   .navbar-brand {
     font-size: 15px;
@@ -276,5 +295,8 @@ h3 {
   }
   .coding-section img {
     width: 320px;
+  }
+  .photography-section p {
+    font-size: 25px;
   }
 }
