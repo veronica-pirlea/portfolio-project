@@ -149,6 +149,56 @@ h3 {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
+.coding-section h1 {
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.coding-section .project-paragraph {
+  margin-top: 100px;
+  border: 3px solid var(--hero-color);
+  border-radius: 20px;
+  background-color: var(--hero-color);
+  padding: 40px;
+}
+
+.coding-section h2 {
+  font-family: var(--secondary-font);
+  color: var(--secondary-font-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.coding-section p {
+  font-family: var(--primary-font);
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.coding-section a {
+  border-radius: 10px;
+  border: 3px solid #f9f8ed;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  border-color: #ebcbae;
+  color: var(--third-font-color);
+  font-family: var(--secondary-font);
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.coding-section img {
+  width: 600px;
+  border-radius: 40px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid var(--hero-color);
+  margin-left: 30px;
+}
+
 @media (max-width: 576px) {
   .navbar-brand {
     font-size: 15px;
