@@ -39,7 +39,7 @@ h3 {
 .hero {
   text-align: center;
   background-color: var(--hero-color);
-  padding-top: 110px;
+  padding: 150px 20px;
 }
 
 #hero-image {
@@ -113,6 +113,42 @@ h3 {
   margin: 50px;
 }
 
+.about-section {
+  padding: 150px 20px;
+}
+
+.about-section h1 {
+  font-size: 50px;
+}
+
+.about-section h2 {
+  font-size: 25px;
+}
+
+.about-section p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.about-section a {
+  border-radius: 10px;
+  border: 3px solid #f9f8ed;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+  border-color: #ebcbae;
+  color: var(--third-font-color);
+  font-family: var(--secondary-font);
+  text-align: center;
+}
+
+.about-section img {
+  width: 600px;
+  border-radius: 80px;
+  border: 3px solid #f9f8ed;
+  margin-left: 30px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
 @media (max-width: 576px) {
   .navbar-brand {
     font-size: 15px;
@@ -121,7 +157,7 @@ h3 {
     font-size: 15px;
   }
   .hero {
-    width: 300px;
+    padding: 80px 20px;
   }
   h2 {
     font-size: 17px;
@@ -158,5 +194,19 @@ h3 {
   #paragraph-button {
     font-size: 14px;
     margin: 20px;
+  }
+  .about-section h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+  .about-section p {
+    font-size: 25px;
+    text-align: left;
+  }
+  .about-section a {
+    font-size: 30px;
+  }
+  .about-section img {
+    margin-left: -10px;
   }
 }
