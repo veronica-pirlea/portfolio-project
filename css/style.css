@@ -259,4 +259,22 @@ h3 {
   .about-section img {
     margin-left: -10px;
   }
+  .coding-section .project-paragraph {
+    margin: 80px 20px;
+  }
+  .coding-section h1 {
+    font-size: 32px;
+  }
+  .coding-section h2 {
+    font-size: 30px;
+  }
+  .coding-section p {
+    font-size: 20px;
+  }
+  .coding-section a {
+    font-size: 25px;
+  }
+  .coding-section img {
+    width: 320px;
+  }
 }
