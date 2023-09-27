@@ -31,15 +31,21 @@ h3 {
 }
 
 #navigation-bar {
-  margin-right: 150px;
+  margin-right: 120px;
   margin-top: 20px;
   font-family: var(--primary-font);
+}
+
+.navbar-brand {
+  margin-right: 50px;
+  font-size: 25px;
+  text-shadow: 5px 5px 10px rgba(18, 18, 18, 0.3);
 }
 
 .hero {
   text-align: center;
   background-color: var(--hero-color);
-  padding: 150px 20px;
+  padding: 110px 20px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
