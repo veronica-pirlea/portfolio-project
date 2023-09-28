@@ -34,11 +34,12 @@ h3 {
   margin-right: 120px;
   margin-top: 20px;
   font-family: var(--primary-font);
+  font-size: 20px;
 }
 
 .navbar-brand {
   margin-right: 50px;
-  font-size: 25px;
+  font-size: 28px;
   text-shadow: 5px 5px 10px rgba(18, 18, 18, 0.3);
 }
 
@@ -90,8 +91,9 @@ h3 {
 
 .bg-yellow {
   background-color: var(--hero-color);
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
   border: 2px outset var(--hero-color);
+  padding: 40px;
 }
 
 .paragraph-headline {
@@ -185,6 +187,7 @@ h3 {
   border: 3px solid var(--hero-color);
   border-radius: 20px;
   background-color: var(--hero-color);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
   padding: 40px;
 }
 
@@ -234,6 +237,7 @@ h3 {
   height: 400px;
   width: 600px;
   border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .photography-section p {
