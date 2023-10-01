@@ -140,6 +140,13 @@ h3 {
   color: var(--secondary-font-color);
 }
 
+.coder {
+  font-family: var(--secondary-font);
+  text-align: center;
+  color: var(--third-font-color);
+  font-size: 18px;
+}
+
 .about-section {
   padding: 60px 20px;
 }
@@ -305,6 +312,11 @@ h3 {
     font-size: 23px;
     margin: 20px;
   }
+  .coder {
+    text-align: left;
+    font-size: 17px;
+  }
+
   .about-section h1 {
     font-size: 50px;
     margin-bottom: 40px;
